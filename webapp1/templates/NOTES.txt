@@ -1,1 +1,1 @@
-kubectl port-forward service/myhelmapp 8888:80 --namespace default
+kubectl port-forward service/{{ .Values.appName }} 8888:80 --namespace {{ .Values.namespace }}
