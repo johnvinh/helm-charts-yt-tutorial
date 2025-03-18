@@ -1,0 +1,1 @@
+kubectl port-forward service/myhelmapp 8888:80 --namespace default
